@@ -19,7 +19,7 @@ function scripts() {
 }
 
 function styles() {
-  return src(['node_modules/simplebar/dist/simplebar.css', 'app/css/normalize.css', 'app/css/style.css'])
+  return src(['app/css/normalize.css', 'app/css/style.css', 'app/css/media.css'])
     .pipe(autoprefixer({ overrideBrowserslist: ['last 10 version'] }))
     .pipe(cleanCSS({ compatibility: 'ie8' }))
     .pipe(concat('style.min.css'))
@@ -39,6 +39,7 @@ function images() {
 
 function watching() {
   watch(['app/css/style.css'], styles);
+  watch(['app/css/media.css'], styles);
   watch(['app/js/main.js'], scripts);
   watch(['app/*.html']).on('change', browserSync.reload);
 }

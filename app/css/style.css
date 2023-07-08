@@ -73,6 +73,24 @@ html {
   display: flex;
 }
 
+/*BURGER*/
+
+.menu {
+  display: none;
+}
+
+.burger-btn {
+  display: none;
+}
+
+.burger-close-btn {
+  display: none;
+}
+
+.logo-sm {
+  display: none;
+}
+
 /*HEADER*/
 
 .header__container {
@@ -104,9 +122,9 @@ html {
 /*HERO*/
 
 .hero {
-  padding-top: 4rem;
+  padding: 4rem 0;
   position: relative;
-  min-height: 55rem;
+  max-height: 55rem;
   width: 100%;
   overflow: hidden;
 }
@@ -143,7 +161,6 @@ html {
 }
 
 .hero__wrapper {
-  justify-content: space-between;
   margin-bottom: 3rem;
 }
 
@@ -169,6 +186,10 @@ html {
 
 .hero__main-item-img {
   width: 100%;
+}
+
+.hero__main-item--sm {
+  display: none;
 }
 
 .hero__btn {
@@ -265,6 +286,7 @@ html {
 .month-box__descr {
   flex-direction: column;
   padding-top: 5.8rem;
+  width: 50%;
 }
 
 .month-box__title {
@@ -466,6 +488,7 @@ html {
   background-color: white;
   border: 1px solid rgba(240, 248, 246, 1);
   letter-spacing: 0.03rem;
+  height: 100%;
 }
 
 .new__btn {
@@ -628,14 +651,10 @@ html {
   color: #01a3a4;
 }
 
-.swiper {
-  max-width: 97rem;
-}
-
 .swiper-btn-container {
   position: absolute;
-  top: 30rem;
-  right: 43rem;
+  top: 90%;
+  right: 40%;
   width: 6rem;
 }
 

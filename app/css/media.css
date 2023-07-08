@@ -1,0 +1,348 @@
+@media (max-width: 1368px) {
+  .hero__item-img,
+  .hero__item-img-bg {
+    width: 50%;
+  }
+
+  .hero__item-img-bg {
+    top: 0;
+    right: 6rem;
+  }
+
+  .hero__decoration-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__title-decoration,
+  .hero__title-decoration--bottom {
+    position: unset;
+  }
+
+  .month-box__images {
+    margin-right: 1rem;
+  }
+
+  .month-box__image:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .new__card-wrapper {
+    margin-bottom: 0.5rem;
+  }
+
+  .new__card-subtitle {
+    font-size: 1rem;
+  }
+
+  .new__card-info {
+    padding: 0.5rem 1rem 0.5rem 2rem;
+  }
+
+  .new__card-text {
+    font-size: 0.7rem;
+  }
+
+  .sign__bg {
+    display: none;
+  }
+
+  .clients__cover {
+    margin-right: 2rem;
+  }
+
+  .clients__cover-img {
+    width: 100%;
+  }
+
+  .clients__info {
+    padding-right: 5rem;
+  }
+
+  .clients__comment {
+    line-height: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .swiper-wrapper {
+    padding-bottom: 5rem;
+  }
+
+  .swiper-btn-container {
+    top: 80%;
+    right: 40%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .header__logo {
+    margin-right: 1rem;
+  }
+
+  .month-box__container {
+    flex-wrap: wrap-reverse;
+  }
+
+  .month-box__top-wrapper {
+    margin: 0 auto;
+  }
+
+  .month-box__btn {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .month-box__images {
+    margin: 0 auto;
+  }
+
+  .month-box__descr {
+    width: unset;
+  }
+
+  .new__card-info {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .new__card-subtitle {
+    font-size: 1rem;
+  }
+
+  .new__card-line {
+    margin-bottom: 0.5rem;
+  }
+
+  .clients__cover {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .clients__info {
+    width: 50%;
+    padding-right: 1rem;
+  }
+
+  .clients__info-top {
+    margin-bottom: 0.5rem;
+  }
+
+  .clients__line-decor {
+    margin-bottom: 0.5rem;
+  }
+
+  .swiper-btn-container {
+    top: 90%;
+    right: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__title-decoration {
+    font-size: 1.8rem;
+  }
+
+  .hero__main-item {
+    display: none;
+  }
+
+  .hero__main-item--sm {
+    display: block;
+    width: 50%;
+    display: flex;
+    margin: auto;
+  }
+
+  .how__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .how__items {
+    flex-direction: column;
+  }
+
+  .how__item {
+    margin: auto;
+  }
+
+  .month-box__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .month-box__descr {
+    padding-top: 0;
+  }
+
+  .mission__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .mission__title {
+    font-size: 3rem;
+  }
+
+  .mission__bottom-text {
+    font-size: 2rem;
+  }
+
+  .recent__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .new__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .new__cards {
+    flex-direction: column;
+  }
+
+  .new__card {
+    width: 80%;
+    margin: auto;
+  }
+
+  .new__card:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .new__btn {
+    margin: auto;
+  }
+
+  .sign__container {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .sign__subtitle {
+    font-size: 3rem;
+    line-height: unset;
+  }
+
+  .sign__form {
+    flex-direction: column;
+    background-color: unset;
+  }
+
+  .sign__input {
+    background-color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .sign__btn {
+    width: unset;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  .clients {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .clients__container {
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+
+  .footer__top {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 666px) {
+  .stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .logo-sm {
+    display: block;
+    height: 4rem;
+    width: 50%;
+  }
+
+  .header__container {
+    display: flex;
+  }
+
+  .menu {
+    display: block;
+    position: fixed;
+    transform: translateX(100%);
+    transition: transform 0.2s;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: white;
+    color: black;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .menu__burger-list {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .menu__burger-items {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .menu__burger-link:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  .open {
+    transition: all 1s ease-in-out;
+  }
+
+  .close {
+    display: none;
+    transition: all 1s ease-in-out;
+  }
+
+  .burger-btn {
+    margin-left: auto;
+    display: block;
+    background: none;
+    border: none;
+  }
+}

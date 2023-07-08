@@ -13,7 +13,10 @@
 <body>
   <header class="header">
     <div class="header__container">
-      <nav>
+      <div class="logo-sm">
+        <img height="100%" src="images/logo.svg" alt="">
+      </div>
+      <nav class="header__menu">
         <ul class="reset-list header__list flex">
           <li class="header__item">
             <a class="" href="">
@@ -42,14 +45,53 @@
           </li>
         </ul>
       </nav>
+      <nav class="menu" id="menu">
+        <ul class="reset-list menu__burger-list flex">
+          <li class="menu__burger-items">
+            <a class="menu__burger-link" href="">
+              Home
+            </a>
+            <img src="images/line.svg" alt="">
+          </li>
+          <li class="menu__burger-items">
+            <a class="menu__burger-link" href="">
+              What`s inside
+            </a>
+            <img src="images/line.svg" alt="">
+          </li>
+          <li class="menu__burger-items">
+            <a class="menu__burger-link" href="">
+              Kiwi eco box
+            </a>
+            <img src="images/line.svg" alt="">
+          </li>
+          <li class="menu__burger-items">
+            <a class="menu__burger-link" href="">
+              About
+            </a>
+            <img src="images/line.svg" alt="">
+          </li>
+          <li class="menu__burger-items">
+            <a class="menu__burger-link" href="">
+              Account
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="burger-btn" id="burger-btn">
+        <img class="open" src="images/hamburger-menu.svg" alt="" id="open">
+        <img class="close" src="images/cancel.svg" alt="" id="close">
+      </button>
     </div>
   </header>
   <main>
     <section class="hero">
       <img class="hero__image" src="images/bg.png" alt="">
       <h2 class="hero__title">Everything You Need</h2>
-      <div class="hero__title-decoration"><span>to Start Living</span></div>
-      <div class="hero__title-decoration hero__title-decoration--bottom"><span>Zero-Waste</span></div>
+      <div class="hero__decoration-wrapper">
+        <div class="hero__title-decoration"><span>to Start Living</span></div>
+        <div class="hero__title-decoration hero__title-decoration--bottom"><span>Zero-Waste</span></div>
+      </div>
       <div class="hero__wrapper flex">
         <div class="hero__item">
           <img class="hero__item-img-bg" src="images/Ellipse 24.svg" alt="">
@@ -59,7 +101,9 @@
           <img class="hero__item-img-bg" src="images/Ellipse 24.svg" alt="">
           <img class="hero__item-img" src="images/Im_3.png" alt="">
         </div>
-        <div class="hero__main-item"><img class="hero__main-item-img" src="images/Image_1.png" alt=""></div>
+        <div class="hero__main-item">
+          <img class="hero__main-item-img" src="images/Image_1.png" alt="">
+        </div>
         <div class="hero__item">
           <img class="hero__item-img-bg" src="images/Ellipse 24.svg" alt="">
           <img class="hero__item-img" src="images/Im_4.png" alt="">
@@ -68,6 +112,9 @@
           <img class="hero__item-img-bg" src="images/Ellipse 24.svg" alt="">
           <img class="hero__item-img" src="images/Im_5.png" alt="">
         </div>
+      </div>
+      <div class="hero__main-item--sm">
+        <img class="hero__main-item-img" src="images/Image_1.png" alt="">
       </div>
       <div class="hero__btn btn"><a href="">Start Now</a></div>
     </section>
@@ -105,14 +152,15 @@
         <div class="month-box__images flex">
           <div class="month-box__images-bg"><img src="images/box-bg.png" alt=""></div>
           <div class="month-box__image">
-            <img src="images/Im_8.jpg" alt="">
+            <img width="100%" src="images/Im_8.jpg" alt="">
           </div>
           <div class="month-box__image">
-            <img src="images/Im_9.jpg" alt="">
+            <img width="100%" src="images/Im_9.jpg" alt="">
           </div>
         </div>
         <div class="month-box__descr flex">
-          <div class="month-box__top-wrapper flex"><img class="month-box__line-img" src="images/line.svg" alt="">
+          <div class="month-box__top-wrapper flex">
+            <img class="month-box__line-img" src="images/line.svg" alt="">
             <h2 class="month-box__title">Box of the Month</h2>
           </div>
           <p class="month-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -148,13 +196,13 @@
         <div class="recent__decor-text"><span>Join the conversation an help us create a new world!</span></div>
         <h2 class="recent__title">Recent Posts</h2>
         <div class="recent__grid">
-          <div class="recent__img-1 div1"><img src="images/Im_10.jpg" alt=""></div>
-          <div class="recent__img-2 div2"><img src="images/Im_11.jpg" alt=""></div>
-          <div class="recent__img-3 div3"><img src="images/Im_12.jpg" alt=""></div>
-          <div class="recent__img-4 div4"><img src="images/Im_13.jpg" alt=""></div>
-          <div class="recent__img-5 div5"><img src="images/Im_14.jpg" alt=""></div>
-          <div class="recent__img-6 div6"><img src="images/Im_15.jpg" alt=""></div>
-          <div class="recent__img-7 div7"><img src="images/Im_16.jpg" alt=""></div>
+          <div class="recent__img-1 div1"><img width="100%" src="images/Im_10.jpg" alt=""></div>
+          <div class="recent__img-2 div2"><img width="100%" src="images/Im_11.jpg" alt=""></div>
+          <div class="recent__img-3 div3"><img width="100%" src="images/Im_12.jpg" alt=""></div>
+          <div class="recent__img-4 div4"><img width="100%" src="images/Im_13.jpg" alt=""></div>
+          <div class="recent__img-5 div5"><img width="100%" src="images/Im_14.jpg" alt=""></div>
+          <div class="recent__img-6 div6"><img width="100%" src="images/Im_15.jpg" alt=""></div>
+          <div class="recent__img-7 div7"><img width="100%" src="images/Im_16.jpg" alt=""></div>
         </div>
       </div>
     </section>
@@ -236,7 +284,7 @@
           <div class="swiper-slide">
             <div class="clients__card flex">
               <div class="clients__cover">
-                <img src="images/Im_18.png" alt="">
+                <img class="clients__cover-img" src="images/Im_18.png" alt="">
               </div>
               <div class="clients__info">
                 <div class="clients__info-top flex">
@@ -260,7 +308,9 @@
                     <span class="clients__rating">5/5</span>
                   </div>
                 </div>
-                <div class="clients__line-decor"><img src="images/line.svg" alt=""></div>
+                <div class="clients__line-decor">
+                  <img src="images/line.svg" alt="">
+                </div>
                 <p class="clients__comment" id="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod
                   tempor
@@ -279,7 +329,7 @@
           <div class="swiper-slide">
             <div class="clients__card flex">
               <div class="clients__cover">
-                <img src="images/Im_18.png" alt="">
+                <img class="clients__cover-img" src="images/Im_18.png" alt="">
               </div>
               <div class="clients__info">
                 <div class="clients__info-top flex">
