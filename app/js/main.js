@@ -39,6 +39,7 @@ modalBtn.addEventListener('click', () => {
     modal.style.display = "block";
     document.body.classList.add("stop-scrolling");
     modalErr.style.display = "none";
+    document.body.style.paddingRight = '15px'
   } else {
     modalErr.style.display = "block";
   }
@@ -47,6 +48,7 @@ modalBtn.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
   modal.style.display = "none";
   document.body.classList.remove("stop-scrolling")
+  document.body.style.paddingRight = 'unset'
 })
 
 const dropdown = document.getElementById('dropdown');

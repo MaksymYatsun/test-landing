@@ -250,10 +250,55 @@
     max-width: unset;
   }
 
+  .sign__form-err {
+    left: 3rem;
+    top: 1.5rem;
+  }
+
   .sign__input {
     background-color: white;
     padding: 2rem;
     margin-bottom: 1rem;
+  }
+
+  .sign__modal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 30rem;
+    min-width: 18rem;
+    margin: auto;
+  }
+
+  .sign__modal-content {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .sign__modal-img {
+    height: 30%;
+    width: 100%;
+  }
+
+  .sign__modal-title {
+    font-family: AdventPro;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .sign__modal-text {
+    font-family: AdventPro;
+    font-size: 1rem;
+    margin-bottom: 8rem;
+  }
+
+  .sign__modal-close {
+    position: absolute;
+    max-width: unset;
+    width: 110%;
+    left: -10%;
+    bottom: 0;
+    padding-bottom: 1rem;
   }
 
   .sign__btn {
@@ -579,6 +624,11 @@
 
   .sign__form {
     padding: unset;
+  }
+
+  .sign__form-err {
+    left: 2rem;
+    top: 0.5rem;
   }
 
   .sign__form-bg {
