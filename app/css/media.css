@@ -312,11 +312,6 @@
 }
 
 @media (max-width: 666px) {
-  .stop-scrolling {
-    height: 100%;
-    overflow: hidden;
-  }
-
   .header__menu {
     display: none;
   }

@@ -73,6 +73,11 @@ html {
   display: flex;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 /*BURGER*/
 
 .menu {
@@ -117,6 +122,29 @@ html {
 
 .header__item:not(:last-child) {
   margin-right: 6rem;
+}
+
+.header__item--dropdown {
+  position: relative;
+}
+
+.dropdown__btn {
+  margin-bottom: 1rem;
+}
+
+.dropdown {
+  display: none;
+  background-color: white;
+  position: absolute;
+  left: -1rem;
+  padding-left: 1rem;
+  flex-direction: column;
+  width: 10rem;
+  box-shadow: 1rem 1rem 1rem rgba(1, 163, 164, 0.15);
+}
+
+.dropdown__item:not(:last-child) {
+  margin-bottom: 1rem;
 }
 
 /*HERO*/
@@ -576,6 +604,56 @@ html {
   top: 7rem;
   right: 0;
   z-index: -1;
+}
+
+.sign__form-err {
+  position: absolute;
+  font-family: Roboto;
+  color: red;
+  display: none;
+}
+
+.sign__modal {
+  display: none;
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.sign__modal-content {
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
+
+.sign__modal-img {
+  width: 40%;
+  background-color: rgba(240, 248, 246, 1);
+}
+
+.sign__modal-info {
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.sign__modal-title {
+  font-size: 2rem;
+}
+
+.sign__modal-title--decoration {
+  color: #01a3a4;
+}
+
+.sign__modal-text {
+  font-size: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 /*CLIENTS*/

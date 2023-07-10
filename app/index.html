@@ -23,10 +23,20 @@
               Home
             </a>
           </div>
-          <div class="header__item">
-            <a href="">
-              Boxes
-            </a>
+          <div class="header__item header__item--dropdown">
+            <div class="dropdown__btn" id="dropdown-btn">
+              <span>
+                Boxes
+              </span>
+            </div>
+            <div class="dropdown flex" id="dropdown">
+              <div class="dropdown__item">
+                <a href="#">Link 1</a>
+              </div>
+              <div class="dropdown__item">
+                <a href="#">Link 2</a>
+              </div>
+            </div>
           </div>
           <div class="header__logo">
             <a href="">
@@ -319,9 +329,12 @@
           </div>
           <form class="sign__form flex">
             <img class="sign__form-bg" src="images/Monstera leaf 1 - Plastic and metal - 0ш 3.png" alt="" srcset="">
-            <input class="sign__input" placeholder="Your email adress" type="text" required>
-            <div class="sign__btn btn">
-              <a href="">Sign up</a>
+            <div class="sign__form-err" id="modal-err">
+              <span>Please enter valid emal</span>
+            </div>
+            <input class="sign__input" id="sign-email" placeholder="Your email adress" type="text">
+            <div class="sign__btn btn" id="modal-btn">
+              Sign up
             </div>
           </form>
           <p class="sign__form-policy">By clicking "sign up" you agree to receive emails from CAUSEBOX and accept our
@@ -329,6 +342,25 @@
             privacy and cookie policy</p>
         </div>
         <img class="sign__bg" src="images/Im_17.png" alt="">
+        <div class="sign__modal" id="modal">
+          <div class="sign__modal-content">
+            <div class="sign__modal-img">
+              <img height="80%" src="images/modal-bg.png" alt="">
+            </div>
+            <div class="sign__modal-info">
+              <div class="sign__modal-title">
+                <span>Thank you for <span class="sign__modal-title--decoration">subscribing!</span></span>
+              </div>
+              <img src="images/line.svg" alt="">
+              <div class="sign__modal-text">
+                <span>Now you will receive alerts when new news <br> and boxes are released!</span>
+              </div>
+              <div class="btn" id="close-modal">
+                <span>Good</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="clients">
