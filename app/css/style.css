@@ -154,10 +154,12 @@ html {
   font-size: 4.5rem;
   margin-bottom: 0.5rem;
   position: absolute;
+  right: 20rem;
 }
 
 .hero__title-decoration--bottom {
-  position: absolute;
+  top: 20rem;
+  right: 14.5rem;
 }
 
 .hero__wrapper {
@@ -198,15 +200,6 @@ html {
   font-size: 1.7rem;
   line-height: 1.6rem;
   letter-spacing: 0.05rem;
-}
-
-.hero__title-decoration {
-  right: 30.5rem;
-}
-
-.hero__title-decoration--bottom {
-  top: 16rem;
-  right: 24.5rem;
 }
 
 /*HOW-IT-WORKS*/
@@ -522,12 +515,9 @@ html {
   margin-bottom: 1rem;
 }
 
-.sign__title-wrapper {
+.sign__title {
   margin-bottom: 1.3rem;
   align-items: center;
-}
-
-.sign__title {
   padding-left: 1.5rem;
   font-size: 3rem;
   text-transform: uppercase;
@@ -599,6 +589,10 @@ html {
   max-width: 76.25rem;
   padding: 5.8rem 3rem 3rem 3rem;
   margin: 0 auto;
+}
+
+.clients__card {
+  justify-content: center;
 }
 
 .clients__subtitle {
@@ -685,17 +679,16 @@ html {
   align-items: center;
 }
 
-.footer__nav-item:not(:last-child) {
-  margin-right: 2.5rem;
+.footer__top-link {
+  margin-right: 1.5rem;
 }
 
-.footer__social-item {
-  margin-right: 1rem;
+.footer__nav {
   align-items: center;
 }
 
-.footer__social-item {
-  align-self: center;
+.footer__social {
+  align-items: center;
 }
 
 .footer__bottom {
