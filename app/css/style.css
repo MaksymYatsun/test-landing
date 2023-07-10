@@ -16,6 +16,12 @@
   src: url(../fonts/Galada-Regular.woff);
 }
 
+@font-face {
+  font-family: AdventPro;
+  src: url(../fonts/AdventPro-Bold.woff2);
+  src: url(../fonts/AdventPro-Bold.woff);
+}
+
 body {
   font-family: BebasNeue;
 }
@@ -31,6 +37,7 @@ h2,
 h3,
 h4,
 h5 {
+  font-size: unset;
   margin: 0;
 }
 
@@ -38,10 +45,6 @@ input,
 button,
 span {
   outline: none;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .btn {
@@ -353,6 +356,7 @@ html {
   letter-spacing: 0.15rem;
   font-family: Roboto;
   margin-bottom: 0.7rem;
+  color: #01a3a4;
 }
 
 .mission__title {
@@ -531,6 +535,10 @@ html {
   max-width: 76.25rem;
   padding: 5.8rem 3rem 16rem 6rem;
   margin: 0 auto;
+}
+
+.sign__decor-text-line {
+  display: none;
 }
 
 .sign__decor-text {

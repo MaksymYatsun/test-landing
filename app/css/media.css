@@ -157,6 +157,7 @@
 
   .hero__title-decoration {
     font-size: 1.8rem;
+    margin-right: 0.5rem;
   }
 
   .hero__main-item {
@@ -220,7 +221,8 @@
   }
 
   .new__card {
-    width: 80%;
+    width: 100%;
+    max-width: 25rem;
     margin: auto;
   }
 
@@ -379,5 +381,242 @@
     display: block;
     background: none;
     border: none;
+  }
+
+  .hero {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .hero__title-decoration {
+    font-size: 1.4rem;
+  }
+
+  .hero__main-item--sm {
+    width: 80%;
+  }
+
+  .how__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .how__title {
+    font-size: 1.5rem;
+    font-family: AdventPro;
+  }
+
+  .how__subtitle {
+    font-size: 1.1rem;
+    font-family: AdventPro;
+  }
+
+  .how__descr {
+    font-size: 0.8rem;
+  }
+
+  .month-box__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .month-box__top-wrapper {
+    flex-direction: column;
+  }
+
+  .month-box__title {
+    font-family: AdventPro;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .month-box__line-img {
+    width: 3rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .month-box__text {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .month-box__images {
+    order: -1;
+  }
+
+  .month-box__images-bg {
+    display: none;
+  }
+
+  .month-box__btn-bg {
+    display: none;
+  }
+
+  .mission__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 7rem;
+  }
+
+  .mission__top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission__top-text-decor {
+    margin-bottom: 1rem;
+  }
+
+  .mission__title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: unset;
+  }
+
+  .mission__bottom-text {
+    padding-right: unset;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .mission__decor-img {
+    left: 35%;
+    top: 17rem;
+    width: 30%;
+  }
+
+  .recent__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .recent__title {
+    font-family: AdventPro;
+    font-size: 2rem;
+    text-transform: unset;
+  }
+
+  .recent__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .recent__img-5,
+  .recent__img-6,
+  .recent__img-7 {
+    display: none;
+  }
+
+  .new__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sign__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sign__decor-line {
+    display: none;
+  }
+
+  .sign__decor-text-line {
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+
+  .sign__decor-text {
+    text-align: center;
+    padding-left: unset;
+    font-size: 0.8rem;
+  }
+
+  .sign__title {
+    font-family: AdventPro;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 14rem;
+  }
+
+  .sign__bg {
+    display: block;
+    width: 100%;
+    top: 10rem;
+  }
+
+  .sign__subtitle {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .sign__form {
+    padding: unset;
+  }
+
+  .sign__form-bg {
+    display: none;
+  }
+
+  .sign__form-policy {
+    text-align: center;
+  }
+
+  .clients {
+    padding-bottom: unset;
+  }
+
+  .clients__subtitle {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .clients__title {
+    font-size: 1.5rem;
+    font-family: AdventPro;
+    text-transform: lowercase;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .clients__cover {
+    margin: auto;
+    width: 50%;
+  }
+
+  .clients__info {
+    width: unset;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .clients__line-decor {
+    margin: auto;
+    width: 10%;
+  }
+
+  .footer__top-logo {
+    margin-bottom: 1rem;
+  }
+
+  .footer__top-link:not(:last-child) {
+    margin-right: unset;
+  }
+
+  .footer__top-link {
+    margin-bottom: 0.6rem;
+  }
+
+  .footer__bottom {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
