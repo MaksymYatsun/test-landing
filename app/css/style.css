@@ -186,6 +186,7 @@ span {
   margin-bottom: 0.5rem;
   position: absolute;
   right: 20rem;
+  margin-right: 0.5rem;
 }
 
 .hero__title-decoration--bottom {
@@ -200,21 +201,28 @@ span {
 .hero__item {
   margin: auto;
   position: relative;
+  padding: 2rem;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__item::before {
+  content: "";
+  background-image: url("../images/Ellipse 24.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -3;
 }
 
 .hero__item-img {
   width: 100%;
-}
-
-.hero__item-img-bg {
-  position: absolute;
-  z-index: -1;
-  top: -1rem;
-  right: -1.5rem;
-}
-
-.hero__main-item {
-  width: 35%;
 }
 
 .hero__main-item-img {
@@ -541,6 +549,14 @@ span {
   display: none;
 }
 
+.sign__decor-line {
+  padding-right: 1.5rem;
+}
+
+.sign__bg--sm {
+  display: none;
+}
+
 .sign__decor-text {
   padding-left: 4.8rem;
   letter-spacing: 0.15rem;
@@ -554,7 +570,6 @@ span {
 .sign__title {
   margin-bottom: 1.3rem;
   align-items: center;
-  padding-left: 1.5rem;
   font-size: 3rem;
   text-transform: uppercase;
 }

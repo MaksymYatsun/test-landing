@@ -1,12 +1,7 @@
 @media (max-width: 1368px) {
-  .hero__item-img,
-  .hero__item-img-bg {
-    width: 50%;
-  }
-
-  .hero__item-img-bg {
-    top: 0;
-    right: 6rem;
+  .hero__item::before {
+    width: 70%;
+    top: -1%;
   }
 
   .hero__decoration-wrapper {
@@ -41,6 +36,10 @@
 
   .new__card-text {
     font-size: 0.7rem;
+  }
+
+  .sign__container {
+    padding-bottom: 3rem;
   }
 
   .sign__bg {
@@ -248,11 +247,12 @@
   .sign__form {
     flex-direction: column;
     background-color: unset;
+    max-width: unset;
   }
 
   .sign__input {
     background-color: white;
-    padding: 0.5rem;
+    padding: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -274,8 +274,23 @@
     padding-bottom: unset;
   }
 
+  .clients__cover {
+    margin: auto;
+  }
+
   .clients__card {
     flex-direction: column;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .clients__info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .clients__comment {
+    max-width: unset;
   }
 
   .footer__container {
@@ -397,6 +412,10 @@
     font-size: 1.4rem;
   }
 
+  .hero__item {
+    padding: 1rem;
+  }
+
   .hero__main-item--sm {
     width: 80%;
   }
@@ -487,9 +506,10 @@
   }
 
   .mission__decor-img {
-    left: 35%;
-    top: 17rem;
-    width: 30%;
+    left: 40%;
+    top: unset;
+    bottom: 5%;
+    width: 20%;
   }
 
   .recent__container {
@@ -544,18 +564,17 @@
     font-family: AdventPro;
     text-align: center;
     font-size: 1.5rem;
-    padding-bottom: 14rem;
+    justify-content: center;
   }
 
-  .sign__bg {
+  .sign__bg--sm {
     display: block;
-    width: 100%;
-    top: 10rem;
   }
 
   .sign__subtitle {
     font-size: 2rem;
     letter-spacing: 0.1rem;
+    text-align: center;
   }
 
   .sign__form {
